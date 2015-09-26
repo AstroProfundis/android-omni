@@ -15,7 +15,7 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
-  <default revision="refs/tags/android-5.1.1_r12"
+  <default revision="refs/tags/android-5.1.1_r18"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -24,7 +24,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="omnirom" revision="android-5.1" />
+  <project path="android" name="AstroProfundis/android-omni" remote="github" revision="android-5.1" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.1" groups="pdk" />
